@@ -1,32 +1,46 @@
 <html>
 <head>
-<body>
 <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
-<meta charset="UTF-8"> 
-<LINK href="buci_z7.css" rel="stylesheet" type="text/CSS">
 </head>
-<ol>
-<li> Gdzie jest wstawiany?
-<br> Wstawia się zawsze w częci nagłówkowej dokumentu (pomiędzy znacznikami <head> a </head>). </li>
-<li> Składnia teoretyczna ? 
-<br> <table width=100%> <meta charset="UTF-8"> 
-<tr><textarea> <head>
+<body bgcolor=lightblue>
+  
+  <h1><font color="Gold" face="Comic Sans MS">Temat: Opis styl lokalny, liniowy, linijkowy.</font></h1>
+  <OL TYPE=n START=1>
+<LI>gdzie jest wstawiany, 
+  </OL>
+   <UL TYPE=Disc>
+<LI> Wstawia siÄ zawsze w czÄĹci nagĹĂłwkowej dokumentu (pomiÄdzy znacznikami <head> a </head>). MoĹźna go zastosowaÄ, gdy elementy ktĂłre pragniemy poddaÄ formatowaniu, wystÄpujÄ wielokrotnie na stronie i wszystkim chcemy nadaÄ takie same atrybuty (inne niĹź domyĹlne).
+  </UL>
+      <OL TYPE=n START=2>
+<LI>skĹadnia teoretyczna (w ramce, konieczne wciÄcia),
+    </OL>
+   <UL TYPE=Disc>
+<LI>/* (head)
 (...)
-<style type="text/css">
-/* <![CDATA[ */
-selektor1 { cecha: wartoć; cecha2: wartoć2... }
-selektor2 { cecha: wartoć; cecha2: wartoć2... }
+(style type="text/css")
+ (![CDATA[
+selektor1 { cecha: wartoĹÄ; cecha2: wartoĹÄ2... }
+selektor2 { cecha: wartoĹÄ; cecha2: wartoĹÄ2... }
 (...)
-/* ]]> */
-</style>
+]])
+(/style)
 (...)
-</textarea></tr></li>
-<li> <meta charset="UTF-8">  Jakie mogš być selektory?
-<br> Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka tabeli) i inne. To włanie elementom, które znajdujš się w kodzie ródłowym, pomiędzy tymi znacznikami, nadajemy atrybuty formatowania opisane w arkuszu. </li>
-<li> Jakie mogš być cechy i wartoci?
-<br> Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi (opisane w kolejnych rozdziałach).
-Natomiast jako wyraz "wartoć" wpisujemy dokładnš wartoć atrybutu.
-Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Sš one wtedy rozdzielone rednikami. </li>
-</ol>
+(/head)*/
+  gdzie: w sposĂłb wyrĂłĹźniony (pogrubieniem) zaznaczono elementy skĹadowe wewnÄtrznego arkusza stylĂłw. Natomiast w miejsce kropek (...) moĹźna wpisaÄ dalsze polecenia.
+  </UL>
+      <OL TYPE=n START=3>
+<LI>jakie mogÄ byÄ selektory,
+    </OL>
+   <UL TYPE=Disc>
+<LI> Selektorem moĹźe byÄ praktycznie dowolny znacznik, np. p (akapit), h1 (tytuĹ), td (komĂłrka tabeli) i inne. To wĹaĹnie elementom, ktĂłre znajdujÄ siÄ w kodzie ĹşrĂłdĹowym, pomiÄdzy tymi znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.
+  </OL>
+      <OL TYPE=n START=4>
+<LI>jakie mogÄ byÄ cechy i wartoĹci.
+      </UL>
+   <UL TYPE=Disc>
+<LI> Jako "cecha" (w deklaracji stylu - powyĹźej) naleĹźy wpisaÄ o jakie konkretnie atrybuty formatowania nam chodzi (opisane w kolejnych rozdziaĹach).
+Natomiast jako wyraz "wartoĹÄ" wpisujemy dokĹadnÄ wartoĹÄ atrybutu.
+ZwrĂłÄ uwagÄ, Ĺźe jednemu selektorowi moĹźemy nadaÄ kilka atrybutĂłw (cech). SÄ one wtedy rozdzielone Ĺrednikami.
+</OL>
 </body>
 </html>
